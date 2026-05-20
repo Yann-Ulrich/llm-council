@@ -92,7 +92,7 @@ The Stage 2 prompt is very specific to ensure parseable output:
 This strict format allows reliable parsing while still getting thoughtful evaluations.
 
 ### De-anonymization Strategy
-- Models receive: "Response A", "Response B", etc.
+- Models receive: "Response A", "Response B", etc...
 - Backend creates mapping: `{"Response A": "openai/gpt-5.1", ...}`
 - Frontend displays model names in **bold** for readability
 - Users see explanation that original evaluation used anonymous labels
